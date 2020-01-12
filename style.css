@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker|Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #222f3e;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color:  #222f3e;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 3px 7px black;
+}
+/* HEADER DAN NAVIGASI */
+header{
+    display: inline-block;
+    height: 5vh;
+    width: 90%;
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+}
+header li{
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 5px;
+}
+nav{
+    float: right;
+    margin-right: 0vh;
+    color: black;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+    animation-delay: 0.5ms;
+}
+
+/*BODY*/
+main{
+    text-align: center;
+    margin-top: 1vh;
+}
+main h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    color: white;
+}
+main h5{
+    font-size: 18px;
+    color: white;
+}
+/*--------------------------------------------------*/
+/*INDEX*/
+.home{
+    width: 90%;
+    height: 100%;
+    text-align: left;
+    padding: 10vh;
+}
+.home #foto{
+    border-radius: 100px;
+}
+.home:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.konten{
+    float: left;
+    padding: 2px;
+    margin-top: 15vh;
+}
+.konten.a{
+    width: 75%;
+    margin-right: 10vh;
+}
+.konten.b{
+    width: 15%;
+    padding: 20px;
+}
+.box{
+    width: 100%;
+    border: solid black 2px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.nama{
+    background-color: #222f3e;
+    padding: 10px;
+    color: white;
+}
+.job{
+    background-color: #222f3e;
+    height: 7vh;
+    padding: 10px;
+    color: white;
+}
+.job h5{
+    margin: 0;
+}
+#copy{
+    float: right;
+    padding: 5px;
+}
+.abtBtn{
+    float: left;
+    margin-right: 2vh;
+}
+/*Footer*/
+footer{
+    margin-bottom: 0;
+    margin-top: 40px;
+    text-align: center;
+    padding: 5vh;
+}
+/*--------------------------------------------------*/
+/*ABOUT*/
+#box1{
+    margin-top: 7vh;
+    width: 50%;
+    padding: 10px;
+    float: left;
+    background-color: #222f3e;
+    border-radius: 15px;
+}
+#box1 h3{
+    border-bottom: 5px solid white;
+    padding-bottom: 5px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+#box1 p{
+    color: white;
+}
+#box2{
+    margin-top: 7vh;
+    width: 40%;
+    padding: 5px;
+    float: right;
+    justify-content: center;
+}
+.logo{
+    margin-right: 22px;
+    margin-left: 16px;
+}
+/*PROJECT*/
+.isi{
+    margin: 0 auto;
+    position: relative;
+    padding: 5vh;
+}
+#box3{
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 5vh;
+}
+#box3 h2{
+    color: #222f3e;
+}
+#box4{
+    display: flex;
+    justify-content: center;
+}
+#box4 .card{
+    width: 260px;
+    margin: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+/*KONTAK*/
+#kontak{
+    width: 100%;
+    padding-top: 2vh;
+}
+#soc{
+    font-size: 28px;
+}
+.row{
+    display: flex;
+    margin: 1vh auto 1vh auto;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+.column{
+    flex: 50%;
+}
+#kiri{
+    text-align: left;
+    font-size: 20px;
+}
+#kontak input[type=text], #kontak input[type="email"], #kontak input[type="textarea"]{
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid #222f3e;
+    border-radius: 5px;
+    background: transparent;
+}
+#kontak input[type="textarea"]{
+    height: 100px;
+}
+#submit{
+    width: 90%;
+    height: 5vh;
+    background: #222f3e;
+    font-size: 24px;
+    color: white;
+}
+#submit:hover{
+    background: white;
+    color: black;
+}
+#kanan h2{
+    margin-bottom: 15vh;
+}
+#kanan a{
+    font-size: 24px;
+    margin: 0 5px 0 5px;
+}
